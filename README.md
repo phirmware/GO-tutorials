@@ -26,13 +26,13 @@ Visit https://golang.org/doc/
 
 ### Lessons
 
-###### 1. Intro to GO
+##### 1. Intro to GO
 - Intro to go
 - Anatomy of a Go file
 - Declaring and assigning variables
 - Running go programs
 
-###### 2. Types in GO
+##### 2. Types in GO
 - Integers - int int8 int32 int64 ...
  `var age int = 4`
 
@@ -56,7 +56,7 @@ var y = float64(x)
 fmt.println(reflect.TypeOf(y))
 `
 
-###### 3. IF ELSE Conditional statements
+##### 3. IF ELSE Conditional statements
 - `
 if condition {
     fmt.println("Awesome")
@@ -75,7 +75,7 @@ if err := someFunction(); err != nil {
 }
 `
 
-###### 4. FOR LOOPS
+##### 4. FOR LOOPS
 - `
 for i := 0; i <= 100; i++ {
     fmt.Println(i)
