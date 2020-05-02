@@ -1,6 +1,6 @@
-# Intro to Go for javascript developers
+# Intro to Go
 
-For javascript developers looking forward to learning Go
+For developers looking forward to learning Go
 
 ### History
 
@@ -23,3 +23,61 @@ Go to https://golang.org/dl/ to download Go, follow the directions to setup your
 ### Documentation
 An important factor with working with Go is knowing your way around the documantation.
 Visit https://golang.org/doc/
+
+### Lessons
+
+###### 1. Intro to GO
+- Intro to go
+- Anatomy of a Go file
+- Declaring and assigning variables
+- Running go programs
+
+###### 2. Types in GO
+- Integers - int int8 int32 int64 ...
+ `var age int = 4`
+
+- Float - float32 float64
+`var gpa float64 = 4.0`
+
+- Strings "Pancakes"
+`var flower string = "daisy"`
+
+- Boolean - true false
+`var canDrink bool = age > 21`
+
+- Using relect Go package to check type of a variable
+`
+var x = 10;
+reflect.TypeOf(x)
+`
+- Type conversion in Go
+`
+var y = float64(x)
+fmt.println(reflect.TypeOf(y))
+`
+
+###### 3. IF ELSE Conditional statements
+- `
+if condition {
+    fmt.println("Awesome")
+}
+`
+- `if condition {
+    fmt.println("Awesome")
+} else if condition { 
+    fmt.println("cool")
+}`
+
+- Variable scoping with IF statements
+`
+if err := someFunction(); err != nil {
+    fmt.println(err)
+}
+`
+
+###### 4. FOR LOOPS
+- `
+for i := 0; i <= 100; i++ {
+    fmt.Println(i)
+}
+` Prints 0 to 100
